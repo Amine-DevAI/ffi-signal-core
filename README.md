@@ -16,7 +16,7 @@
 
 Most CRUD apps stop at "save to database." This one had to survive a real factory floor: multiple roles working in parallel, live QR-scan hardware, a server that pushes events instead of waiting to be polled, and a compliance requirement (ALCOA+ style data integrity) where **nothing is ever silently overwritten** — every correction is logged, flagged, and reviewable.
 
-It started as a final-year engineering capstone and was stress-tested in a live industrial environment during an internship — this repo is the native C++ core that came out of that.
+This isn't a tutorial clone or a toy CRUD app — it runs against real weighing hardware, real QR scanners, and a live multi-role factory workflow, with a compliance model (ALCOA+ style data integrity) that doesn't forgive shortcuts. It was built and deployed in an actual industrial environment, not just demoed on a laptop.
 
 ---
 
@@ -176,7 +176,7 @@ The output is a shared library (`.so` / `.dll` / `.dylib`) that a Flutter app lo
 
 ## About the developer
 
-Built by **Mohamed Amine** — computing systems graduate, currently building independent software and hardware ventures. Background in C++ and systems-level engineering, with this project growing out of a graduation capstone and later stress-tested in a real industrial deployment.
+Built by **Mohamed Amine** — Bachelor's in Computer Science (Computer Systems) from the University of Blida 1, currently pursuing a Master's in Artificial Intelligence. Background in C++ and systems-level engineering,
 
 - [LinkedIn](https://www.linkedin.com/in/mohamed-amine-mammar-el-hadj-715a41295)
 

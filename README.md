@@ -179,10 +179,4 @@ The output is a shared library (`.so` / `.dll` / `.dylib`) that a Flutter app lo
 Built by **Mohamed Amine** — computing systems graduate, currently building independent software and hardware ventures. Background in C++ and systems-level engineering, with this project growing out of a graduation capstone and later stress-tested in a real industrial deployment.
 
 - LinkedIn: `<www.linkedin.com/in/mohamed-amine-mammar-el-hadj-715a41295>`
-- Portfolio site: `<add link>`
 
----
-
-## License
-
-`<choose a license — MIT is a common default for portfolio repos>`
